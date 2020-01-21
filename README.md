@@ -1,4 +1,4 @@
-LED panel can control an array of up to 8 panels at 60 Hz. C++ and Python can be used to drivee the display.
+LED panel can control an array of up to 8 panels at 60 Hz. C++ and Python can be used to drive the display.
 
 # Layout
 
@@ -64,7 +64,7 @@ sudo pip install numpy
 
 1. Set the `device` variable in __arduino/Makefile__. Plug in the Arduino Nano and run `ls /dev/tty*` (`ls /dev/tty.*` on macOS) to find the device name on your machine.
 
-2. Got to the __arduino__ directory and run `make`.
+2. Go to the __arduino__ directory and run `make`.
 
 3. Flash the device with `make flash`.
 
@@ -84,7 +84,7 @@ The display can be controlled using C++ or Python.
   ```cpp
   #include "led_panel.hpp"
 
-   int main(int argc, char* argv[]) {
+  int main(int argc, char* argv[]) {
       led_panel display(2, 1); // number of horizontal and vertical panels
       for (;;) {
           // the first byte of the frame is the brightness
