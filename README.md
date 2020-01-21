@@ -18,7 +18,7 @@ arduino → ∟ → ∟ → ∟ → ∟
 ## Code parameters
 
 The following files must be edited to configure the number of panels and their layout:
-- __arduino/arduino.c__: set `frame_size` to `width * height * 64`, where `width` is the number of horizontal panels and `height` thee number of vertical panels. For example, for two horizontal panels:
+- __arduino/arduino.c__: set `frame_size` to `width * height * 64`, where `width` is the number of horizontal panels and `height` the number of vertical panels. For example, for two horizontal panels:
   ```c
   #define frame_size 128
   ```
