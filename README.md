@@ -1,4 +1,4 @@
-LED panel can control an array of up to 8 panels at 60 Hz. C++ and Python can be used to drive the display.
+LED panel can control an array of up to 8 panels at 100 Hz. C++ and Python can be used to drive the display.
 
 # Layout
 
@@ -93,7 +93,7 @@ The display can be controlled using C++ or Python.
           std::vector<uint8_t, 1 + 2 * 1 * 64> frame;
 
            // display.send blocks until the display has received the frame
-          // the loop will run at 60 Hz
+          // the loop will run at 100 Hz
           display.send(frame);
       }
   }
