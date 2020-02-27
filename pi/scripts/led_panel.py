@@ -33,7 +33,7 @@ def send(brightness, packed_frame):
     assert brightness < 256
     assert type(packed_frame) is numpy.ndarray
     assert packed_frame.dtype is numpy.dtype('uint8')
-    assert packed_frame.size == width * height / 8
+    assert packed_frame.size == width * height // 8
     process.stdin.write(bytes([brightness]))
     process.stdin.write(packed_frame.tobytes())
     process.stdin.flush()

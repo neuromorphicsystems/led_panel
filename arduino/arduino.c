@@ -113,8 +113,8 @@ int main(void) {
     PORTD = 0;
 
     // enable SPI
-    PORTB |= (1 << DDB3) | (1 << DDB5);
     DDRB |= (1 << DDB3) | (1 << DDB5);
+    PORTB |= (1 << DDB3) | (1 << DDB5);
     SPCR = (1 << SPR0) | (1 << MSTR) | (1 << SPE);
 
     sei();

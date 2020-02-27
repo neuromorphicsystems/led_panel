@@ -1,4 +1,8 @@
-LED panel can control an array of up to 8 panels at 100 Hz. C++ and Python can be used to drive the display.
+<p align="center">
+    <img src="led_panel.png" width="500">
+</p>
+
+The present setup and librrary can control an array of up to 8 panels at 100 Hz. C++ and Python can be used to drive the display.
 
 # Layout
 
