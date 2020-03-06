@@ -103,7 +103,7 @@ class led_panel {
     /// acknowledge_pin is the acknowledge signal pin.
     static constexpr uint32_t acknowledge_pin = 22;
 
-    /// set_offset is the gpios clear register offset.
+    /// set_offset is the gpios set register offset.
     static constexpr uint8_t set_offset = 7;
 
     /// clear_offset is the gpios clear register offset.
